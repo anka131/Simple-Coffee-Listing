@@ -15,7 +15,6 @@ function AppLayout() {
                 const data = await res.json();
                 setCoffeeData(data);
                 setOriginalData(data);
-                console.log(data);
                 
             }catch{
                 console.log("Error fetching coffee");
